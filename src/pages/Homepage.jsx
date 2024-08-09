@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import PageNav from "../components/PageNav";
 import "../sass/main.scss";
+import workbenchSmall from "../img/workbench-small.png";
+import workbenchLarge from "../img/workbench-large.png";
 
 export default function Homepage() {
   useEffect(function () {
@@ -70,26 +72,26 @@ export default function Homepage() {
             <div className="col-1-of-2">
               <div className="composition">
                 <img
-                  srcSet={require("/src/img/workbench-small.png  300w, /src/img/workbench-large.png 1000w")}
+                  srcSet={`${workbenchSmall}  300w, ${workbenchLarge} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 1"
                   className="composition__photo composition__photo--p1"
-                  src={require("/src/img/workbench-large.png")}
+                  src={workbenchLarge}
                 />
 
                 <img
-                  srcSet={require("/src/img/monitor-small.png 300w, /src/img/monitor-large.png 1000w")}
+                  srcSet={`${require("../img/monitor-small.png ")}  300w, ${require("../img/monitor-large.png")} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 2"
                   className="composition__photo composition__photo--p2"
-                  src={require("/src/img/monitor-large.png")}
+                  src={require("../img/monitor-large.png")}
                 />
                 <img
-                  srcSet={require("/src/img/profile-sm.png 300w, /src/img/profile-large.png 1000w")}
+                  srcSet={`${require("../img/profile-sm.png")} 300w, ${require("../img/profile-large.png")} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 3"
                   className="composition__photo composition__photo--p3"
-                  src={require("/src/img/profile-large.png")}
+                  src={require("../img/profile-large.png")}
                 />
               </div>
             </div>
