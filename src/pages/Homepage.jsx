@@ -7,6 +7,10 @@ import monitorSmall from "../img/monitor-small.png";
 import monitorLarge from "../img/monitor-large.png";
 import profileSmall from "../img/profile-sm.png";
 import profileLarge from "../img/profile-large.png";
+import laptopSmall1x from "../img/laptop-small-1x.png";
+import laptopSmall2x from "../img/laptop-small-2x.png";
+import laptop1x from "../img/laptop-1x.png";
+import laptop2x from "../img/laptop-2x.png";
 
 export default function Homepage() {
   useEffect(function () {
@@ -586,13 +590,13 @@ export default function Homepage() {
         <div className="footer__logo-box">
           <picture className="footer__logo">
             <source
-              srcSet="/src/img/laptop-small-1x.png 1x, /src/img/laptop-small-2x.png 2x"
+              srcSet={`"${laptopSmall1x} 1x, ${laptopSmall2x} 2x"`}
               media="(max-width: 37.5em)"
             />
             <img
-              srcSet="/src/img/laptop-1x.png 1x, /src/img/laptop-2x.png 2x"
+              srcSet={`"${laptop1x} 1x, ${laptop2x} 2x"`}
               alt="Full logo"
-              src="/src/img/laptop-2x.png"
+              src={`${laptop2x}`}
             />
           </picture>
         </div>
