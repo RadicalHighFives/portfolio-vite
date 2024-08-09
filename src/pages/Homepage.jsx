@@ -11,6 +11,12 @@ import laptopSmall1x from "../img/laptop-small-1x.png";
 import laptopSmall2x from "../img/laptop-small-2x.png";
 import laptop1x from "../img/laptop-1x.png";
 import laptop2x from "../img/laptop-2x.png";
+import fintechImage from "../img/Zellev2.png";
+import kubeImage from "../img/KubernetesV1.png";
+import kubeArch from "../img/ArchitectureV1.png";
+import spaceImage from "../img/searchpage.png";
+import spaceHomeImage from "../img/shelterhomepage.png";
+import flowImage from "../img/Flow.JPG";
 
 export default function Homepage() {
   useEffect(function () {
@@ -714,7 +720,7 @@ export default function Homepage() {
       <div className="popup" id="popup-fin">
         <div className="popup__content">
           <div className="popup__left">
-            <img src="/src/img/Zellev2.png" alt="" className="popup__img" />
+            <img src={fintechImage} alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
@@ -746,16 +752,8 @@ export default function Homepage() {
       <div className="popup" id="popup-kube">
         <div className="popup__content">
           <div className="popup__left">
-            <img
-              src="/src/img/KubernetesV1.png"
-              alt=""
-              className="popup__img"
-            />
-            <img
-              src="/src/img/ArchitectureV1.png"
-              alt=""
-              className="popup__img"
-            />
+            <img src={kubeImage} alt="" className="popup__img" />
+            <img src={kubeArch} alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
@@ -789,12 +787,8 @@ export default function Homepage() {
       <div className="popup" id="popup-space">
         <div className="popup__content">
           <div className="popup__left">
-            <img src="/src/img/searchpage.png" alt="" className="popup__img" />
-            <img
-              src="/src/img/shelterhomepage.PNG"
-              alt=""
-              className="popup__img"
-            />
+            <img src={spaceImage} alt="" className="popup__img" />
+            <img src={spaceHomeImage} alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
@@ -886,7 +880,7 @@ export default function Homepage() {
       <div className="popup" id="popup-flow">
         <div className="popup__content">
           <div className="popup__left">
-            <img src="/src/img/Flow.JPG" alt="" className="popup__img" />
+            <img src={flowImage} alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
