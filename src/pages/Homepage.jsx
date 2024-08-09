@@ -15,7 +15,6 @@ import fintechImage from "../img/Zellev2.png";
 import kubeImage from "../img/KubernetesV1.png";
 import kubeArch from "../img/ArchitectureV1.png";
 import spaceImage from "../img/searchpage.png";
-import spaceHomeImage from "../img/shelterhomepage.png";
 import flowImage from "../img/Flow.jpg";
 
 export default function Homepage() {
@@ -788,7 +787,7 @@ export default function Homepage() {
         <div className="popup__content">
           <div className="popup__left">
             <img src={spaceImage} alt="" className="popup__img" />
-            <img src={spaceHomeImage} alt="" className="popup__img" />
+            <img src={spaceImage} alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
