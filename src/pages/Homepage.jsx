@@ -70,7 +70,7 @@ export default function Homepage() {
             <div className="col-1-of-2">
               <div className="composition">
                 <img
-                  srcSet="/src/img/workbench-small.png  300w, img/workbench-large.png 1000w"
+                  srcSet="src/img/workbench-small.png  300w, src/img/workbench-large.png 1000w"
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 1"
                   className="composition__photo composition__photo--p1"
@@ -78,18 +78,18 @@ export default function Homepage() {
                 />
 
                 <img
-                  srcSet="/src/img/monitor-small.png 300w, /src/img/monitor-large.png 1000w"
+                  srcSet="src/img/monitor-small.png 300w, src/img/monitor-large.png 1000w"
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 2"
                   className="composition__photo composition__photo--p2"
                   src="/src/img/monitor-large.png"
                 />
                 <img
-                  srcSet="/src/img/profile-sm.png 300w, /src/img/profile-large.png 1000w"
+                  srcSet="src/img/profile-sm.png 300w, src/img/profile-large.png 1000w"
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 3"
                   className="composition__photo composition__photo--p3"
-                  src="/src/img/profile-large.png"
+                  src="src/img/profile-large.png"
                 />
               </div>
             </div>
