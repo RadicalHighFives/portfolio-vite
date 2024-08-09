@@ -3,8 +3,8 @@ import PageNav from "../components/PageNav";
 import "../sass/main.scss";
 import workbenchSmall from "../img/workbench-small.png";
 import workbenchLarge from "../img/workbench-large.png";
-import monitorSmall from "../img/monitor-small.png ";
-import monitorLarge from "../img/monitor-large.png ";
+import monitorSmall from "../img/monitor-small.png";
+import monitorLarge from "../img/monitor-large.png";
 import profileSmall from "../img/profile-sm.png";
 import profileLarge from "../img/profile-large.png";
 
