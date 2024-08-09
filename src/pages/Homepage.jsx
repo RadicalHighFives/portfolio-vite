@@ -1,6 +1,12 @@
 import { useEffect } from "react";
 import PageNav from "../components/PageNav";
 import "../sass/main.scss";
+import workbenchSmall from "../img/workbench-small.png";
+import workbenchLarge from "../img/workbench-large.png";
+import monitorSmall from "../img/monitor-small.png ";
+import monitorLarge from "../img/monitor-large.png ";
+import profileSmall from "../img/profile-sm.png";
+import profileLarge from "../img/profile-large.png";
 
 export default function Homepage() {
   useEffect(function () {
@@ -70,26 +76,26 @@ export default function Homepage() {
             <div className="col-1-of-2">
               <div className="composition">
                 <img
-                  srcSet={`${require("../img/workbench-small.png")}  300w, ${require("../img/workbench-large.png")} 1000w`}
+                  srcSet={`${workbenchSmall}  300w, ${workbenchLarge} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 1"
                   className="composition__photo composition__photo--p1"
-                  src={require("../img/workbench-large.png")}
+                  src={workbenchLarge}
                 />
 
                 <img
-                  srcSet={`${require("../img/monitor-small.png ")}  300w, ${require("../img/monitor-large.png")} 1000w`}
+                  srcSet={`${monitorSmall}  300w, ${monitorLarge} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 2"
                   className="composition__photo composition__photo--p2"
-                  src={require("../img/monitor-large.png")}
+                  src={monitorLarge}
                 />
                 <img
-                  srcSet={`${require("../img/profile-sm.png")} 300w, ${require("../img/profile-large.png")} 1000w`}
+                  srcSet={`${profileSmall} 300w, ${profileLarge} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 3"
                   className="composition__photo composition__photo--p3"
-                  src={require("../img/profile-large.png")}
+                  src={profileLarge}
                 />
               </div>
             </div>
@@ -580,11 +586,11 @@ export default function Homepage() {
         <div className="footer__logo-box">
           <picture className="footer__logo">
             <source
-              srcSet={require("/src/img/laptop-small-1x.png 1x, /src/img/laptop-small-2x.png 2x")}
+              srcSet="/src/img/laptop-small-1x.png 1x, /src/img/laptop-small-2x.png 2x"
               media="(max-width: 37.5em)"
             />
             <img
-              srcSet={require("/src/img/laptop-1x.png 1x, /src/img/laptop-2x.png 2x")}
+              srcSet="/src/img/laptop-1x.png 1x, /src/img/laptop-2x.png 2x"
               alt="Full logo"
               src="/src/img/laptop-2x.png"
             />
@@ -704,11 +710,7 @@ export default function Homepage() {
       <div className="popup" id="popup-fin">
         <div className="popup__content">
           <div className="popup__left">
-            <img
-              src={require("/src/img/Zellev2.png")}
-              alt=""
-              className="popup__img"
-            />
+            <img src="/src/img/Zellev2.png" alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
@@ -741,12 +743,12 @@ export default function Homepage() {
         <div className="popup__content">
           <div className="popup__left">
             <img
-              src={require("/src/img/KubernetesV1.png")}
+              src="/src/img/KubernetesV1.png"
               alt=""
               className="popup__img"
             />
             <img
-              src={require("/src/img/ArchitectureV1.png")}
+              src="/src/img/ArchitectureV1.png"
               alt=""
               className="popup__img"
             />
@@ -783,13 +785,9 @@ export default function Homepage() {
       <div className="popup" id="popup-space">
         <div className="popup__content">
           <div className="popup__left">
+            <img src="/src/img/searchpage.png" alt="" className="popup__img" />
             <img
-              src={require("/src/img/searchpage.png")}
-              alt=""
-              className="popup__img"
-            />
-            <img
-              src={require("/src/img/shelterhomepage.PNG")}
+              src="/src/img/shelterhomepage.PNG"
               alt=""
               className="popup__img"
             />
@@ -884,11 +882,7 @@ export default function Homepage() {
       <div className="popup" id="popup-flow">
         <div className="popup__content">
           <div className="popup__left">
-            <img
-              src={require("/src/img/Flow.JPG")}
-              alt=""
-              className="popup__img"
-            />
+            <img src="/src/img/Flow.JPG" alt="" className="popup__img" />
           </div>
 
           <div className="popup__right">
