@@ -596,11 +596,11 @@ export default function Homepage() {
         <div className="footer__logo-box">
           <picture className="footer__logo">
             <source
-              srcSet={`"${laptopSmall1x} 1x, ${laptopSmall2x} 2x"`}
+              srcSet={`${laptopSmall1x} 1x, ${laptopSmall2x} 2x`}
               media="(max-width: 37.5em)"
             />
             <img
-              srcSet={`"${laptop1x} 1x, ${laptop2x} 2x"`}
+              srcSet={`${laptop1x} 1x, ${laptop2x} 2x`}
               alt="Full logo"
               src={laptop2x}
             />
