@@ -596,7 +596,7 @@ export default function Homepage() {
             <img
               srcSet={`"${laptop1x} 1x, ${laptop2x} 2x"`}
               alt="Full logo"
-              src={`${laptop2x}`}
+              src={laptop2x}
             />
           </picture>
         </div>
