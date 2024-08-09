@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import PageNav from "../components/PageNav";
 import "../sass/main.scss";
-import workbenchSmall from "../img/workbench-small.png";
-import workbenchLarge from "../img/workbench-large.png";
 
 export default function Homepage() {
   useEffect(function () {
@@ -72,11 +70,11 @@ export default function Homepage() {
             <div className="col-1-of-2">
               <div className="composition">
                 <img
-                  srcSet={`${workbenchSmall}  300w, ${workbenchLarge} 1000w`}
+                  srcSet={`${require("../img/workbench-small.png")}  300w, ${require("../img/workbench-large.png")} 1000w`}
                   sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                   alt="Photo 1"
                   className="composition__photo composition__photo--p1"
-                  src={workbenchLarge}
+                  src={require("../img/workbench-large.png")}
                 />
 
                 <img
