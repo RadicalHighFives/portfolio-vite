@@ -15,7 +15,7 @@ import fintechImage from "../img/Zellev2.png";
 import kubeImage from "../img/KubernetesV1.png";
 import kubeArch from "../img/ArchitectureV1.png";
 import spaceImage from "../img/searchpage.png";
-import flowImage from "../img/Flow.jpg";
+import flowImage from "../img/flow.jpg";
 
 export default function Homepage() {
   useEffect(function () {
