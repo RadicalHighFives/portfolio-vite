@@ -15,7 +15,6 @@ import fintechImage from "../img/Zellev2.png";
 import kubeImage from "../img/KubernetesV1.png";
 import kubeArch from "../img/ArchitectureV1.png";
 import spaceImage from "../img/searchpage.png";
-import flowImage from "../img/flow.jpg";
 
 export default function Homepage() {
   useEffect(function () {
@@ -879,7 +878,7 @@ export default function Homepage() {
       <div className="popup" id="popup-flow">
         <div className="popup__content">
           <div className="popup__left">
-            <img src={flowImage} alt="" className="popup__img" />
+            <img src="../img/flow.jpg" alt="flow" className="popup__img" />
           </div>
 
           <div className="popup__right">
